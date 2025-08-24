@@ -57,7 +57,7 @@ should display this map to the CLI.
 -- 
 
 - Tech Cards
--- Redraw (2)
+-- 
 -- 
 
 --------------------------------
@@ -81,6 +81,11 @@ preparation phase.
 
 ### (4.2) combat
 - An unlimited number of cards can be played at any turn before the player decides to attack. Once the player attacks, presses end, or plays a card that ends their turn, the players turn ends and is passed to their opponent. 
+
+
+- If an enemy is defeated, the player regains all cards that were used against that enemy. 
+
+
 
 - The cards should be displayed depending in sorted order depending on combat type. 
     - aa
