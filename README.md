@@ -36,15 +36,34 @@ should display this map to the CLI.
 
 - Movement Cards
 -- Switch/Enemy, Switch/Ally
+-- Switch/Obstacle
 -- Bishop (Only Move Diagonally --for one turn)
---      
+-- Knight (Only Move in L Direction)
+-- Rook (Only Move Straight) 
+
+- Build Cards
+-- Throw (Creates an Obstacle in a set range)
+-- Destroy (
+-- 
+
+--------------------------------
 
 - Combat Cards
+-- Increase Strength 
+-- Increase Defense 
+
+-- 
+--
 -- 
 
 - Tech Cards
 -- Redraw (2)
 -- 
+
+--------------------------------
+
+- Curse Cards 
+--
 
 - Break Cards
 -- 
@@ -61,9 +80,11 @@ preparation phase.
 - The cards should be displayed in sorted order depending on movement type. 
 
 ### (4.2) combat
-- 
+- An unlimited number of cards can be played at any turn before the player decides to attack. Once the player attacks, presses end, or plays a card that ends their turn, the players turn ends and is passed to their opponent. 
+
 - The cards should be displayed depending in sorted order depending on combat type. 
     - aa
+
 
 ### (4.3) enemy
 - Using a shortest path algorithm, enemies must be able to identify and 
