@@ -1,7 +1,7 @@
 # project pandemonium
 
 ## description
-CLI turn based card RPG written in C for algorithm practice. 
+CLI turn based card RPG Prototype written in C for algorithm practice. 
 Heavily inspired by SMT's Devil Survivor series for the 3DS, Slay the Spire
 and Granblue Fantasy. 
 
@@ -80,8 +80,9 @@ preparation phase.
 - The cards should be displayed in sorted order depending on movement type. 
 
 ### (4.2) combat
-- An unlimited number of cards can be played at any turn before the player decides to attack. Once the player attacks, presses end, or plays a card that ends their turn, the players turn ends and is passed to their opponent. 
-
+- An unlimited number of cards can be played at any turn before the player decides to attack. 
+- Once the player attacks, presses end, or plays a card that ends their turn, the players 
+turn ends and is passed to their opponent. 
 
 - If an enemy is defeated, the player regains all cards that were used against that enemy. 
 
